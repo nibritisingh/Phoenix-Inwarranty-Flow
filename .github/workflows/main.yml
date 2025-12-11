@@ -12,16 +12,17 @@ on:
     jobs:
       run-tests:
          runs-on: ubuntu-latest
+         
          steps:
-            -name: Checkout Code
+           -name: Checkout Code
              uses: actions/checkout@v4.2.2
 
-            -name: Setup Node and NPM
+           -name: Setup Node and NPM
              uses: actions/setup-node@v3.9.1
-            with:
+             with:
                node-version: 22
 
-            -name: Install Newman and Html-extra globally
+           -name: Install Newman and Html-extra globally
              run: |
                  npm install -g newman
                  npm install -g newman-reporter-htmlextra
@@ -33,3 +34,8 @@ on:
                -e QA.postman_environment.json \
                -r cli,htmlextra \ 
                -d testdata.csv
+
+           -name: Newman Report
+            path: newman/*.html
+
+
