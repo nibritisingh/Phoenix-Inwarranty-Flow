@@ -65,6 +65,6 @@ jobs:
            from : ${{ secrets.EMAIL_USERNAME }}
            body: | 
              Hi, 
-             PFA the test report for the postman execution via github action.
+             The test report for the postman execution via github action.
              You can view the same on the url: https://nibritisingh.github.io/Phoenix-Inwarranty-Flow/
              
