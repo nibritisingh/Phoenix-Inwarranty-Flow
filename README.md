@@ -4,7 +4,7 @@ This repository is a demonstration for POC for integrating postman tests with gi
 The HTML report is archieved and kept in the artifact section for the team to download it. Along with that they can view the report directly from the github page : https://github.com/nibritisingh/Phoenix-Inwarranty-Flow. The latest report is mailed to the team members using GMAIL SMTP.
 
 ## About Me ##
-Hi My Name is Nibriti Singh. I have 5 years of experience in Manual and Automation testing. My Skillset Includes UI Automation with Selenium Webdriver, Cypress, Playwright and for API Testing I use Rest Assured and Postman. You can connect with me over: https://www.linkedin.com/in/nibriti-singh/.
+Hi my name is Nibriti Singh. I have 5 years of experience in Manual and Automation testing. My Skillset Includes UI Automation with Selenium Webdriver, Cypress, Playwright and for API Testing I use Rest Assured and Postman. You can connect with me over: https://www.linkedin.com/in/nibriti-singh/.
 
 ## Testing Coverage ##
 1. Happy Flow testing
