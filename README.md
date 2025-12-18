@@ -53,7 +53,7 @@ Install ```Newman-reporter-htmlextra npm install -g newman-reporter-htmlextra```
 
 Run the Newman Command:
 
-       ```newman run 'Inwarranty-flow Collection.postman_collection.json' \  
+       ```newman run 'Inwarranty-flow collection copy.postman_collection.json' \  
       -e QA.postman_environment.json \
       -d testdata.csv \
       -r cli,htmlextra \
